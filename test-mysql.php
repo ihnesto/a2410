@@ -30,3 +30,17 @@ if ($ret == false) {
 }
 
 mysqli_close();
+
+
+git config --local user.name Vasya
+git config --local user.email Vasya@abc.com
+
+git init
+
+git status
+
+git add *
+
+git commit -m"Bug fixed"
+
+git log
