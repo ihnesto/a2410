@@ -44,3 +44,7 @@ git add *
 git commit -m"Bug fixed"
 
 git log
+
+git remote add a2410 https://github.com/ihnesto/a2410.git
+git remote -v
+git push a2410 master
